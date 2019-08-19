@@ -22,8 +22,7 @@ public class TagTest extends TagSupport {
         try {
             this.pageContext.getOut().println("<a href='d'>aAAabb</a>"+us.selectByPrimaryKey(1).getUsername());
 System.out("addddd");
-System.out("bb");
-        } catch (IOException e) {
+System.out("bb");        } catch (IOException e) {
             e.printStackTrace();
         }
         return super.doEndTag();
@@ -32,4 +31,4 @@ System.out("bb");
 
 
 
-aaaaaxQQQ
+aaaaa
